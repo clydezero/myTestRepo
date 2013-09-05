@@ -17,6 +17,9 @@
 
 #pragma mark - Managing the detail item
 
+
+// What is this?
+
 - (void)setDetailItem:(id)newDetailItem
 {
     if (_detailItem != newDetailItem) {
@@ -43,6 +46,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"HEllo viewDidload");
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 }
