@@ -46,7 +46,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"HEllo viewDidload");
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 }
