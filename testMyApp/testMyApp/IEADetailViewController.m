@@ -19,6 +19,7 @@
 
 
 // What is this?
+// I think this is usefull method
 
 - (void)setDetailItem:(id)newDetailItem
 {
